@@ -217,6 +217,7 @@ mod clock;
 pub mod default;
 mod error;
 pub mod exponential;
+pub mod instant;
 
 #[cfg(feature = "futures")]
 #[cfg_attr(docsrs, doc(cfg(feature = "futures")))]
